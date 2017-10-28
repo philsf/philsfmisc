@@ -51,17 +51,11 @@ Felipe Figueiredo
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+is.within(1.5, c(0,5)) # TRUE
+is.within(6, c(0,5)) # FALSE
 
-## The function is currently defined as
-function (value, interval, open.interval = FALSE)
-{
-    if (open.interval)
-        return(value > interval[1] & value < interval[2])
-    value >= interval[1] & value <= interval[2]
-  }
+is.within(c(1.5, 6), c(0,5)) # vector: TRUE, TRUE
+is.within(list(1.5, 6), c(0,5)) # list: TRUE, FALSE
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
