@@ -1,6 +1,14 @@
 # philsfmisc - philsf miscellaneous R functions
 
-Functions implemented:
+## Installation instructions
+
+To install this package, you need to have the `devtools` package installed.
+
+install_github("philsf/philsfmisc")
+
+
+
+## Functions provided
 
 - `format.float`
 - `format.interval`
