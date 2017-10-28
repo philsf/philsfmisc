@@ -14,6 +14,9 @@ format.interval(interval, digits = 2)
 \arguments{
   \item{interval}{
 %%     ~~Describe \code{interval} here~~
+  Must be a vector of two values.
+
+  Values can be either numeric or character.
 }
   \item{digits}{
   Number of fixed digits, after decimal point. (default = 2)
@@ -30,6 +33,7 @@ This uses \code{\link{format.float}} for formatting each of the limits of the in
 %%  \item{comp1 }{Description of 'comp1'}
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
+Returns a character value.
 }
 \references{
 %% ~put references to the literature/web site here ~
