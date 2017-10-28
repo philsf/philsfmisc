@@ -13,13 +13,15 @@ is.within(value, interval, open.interval = FALSE)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{value}{
-%%     ~~Describe \code{value} here~~
+A numeric value, vector or list.
 }
   \item{interval}{
 %%     ~~Describe \code{interval} here~~
+The (numeric) interval within which \code{value} is being tested.
 }
   \item{open.interval}{
 %%     ~~Describe \code{open.interval} here~~
+logical: should \code{interval} be regarded as an open interval?
 }
 }
 \details{
@@ -31,6 +33,7 @@ is.within(value, interval, open.interval = FALSE)
 %%  \item{comp1 }{Description of 'comp1'}
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
+The default method for \code{is.within} applied to an atomic vector returns a logical vector of the same length as its argument x, containing TRUE for those elements contained within \code{interval}, and FALSE otherwise.
 }
 \references{
 %% ~put references to the literature/web site here ~
