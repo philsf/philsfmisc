@@ -42,6 +42,7 @@ Felipe Figueiredo
 }
 \note{
 %%  ~~further notes~~
+\code{format.float} does NOT work with \code{factor} values.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
