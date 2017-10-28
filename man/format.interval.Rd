@@ -51,28 +51,13 @@ Felipe Figueiredo
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+format.interval(c(1.756, 1.823))
 
-## The function is currently defined as
-function (interval, digits = 2)
-{
-    if (is.null(interval))
-        return(NULL)
-    if (anyNA(interval))
-        return(NA)
-    stopifnot(length(interval) == 2)
-    LL <- format.float(interval[1], digits = digits)
-    UL <- format.float(interval[2], digits = digits)
-    LL.closure <- "["
-    UL.closure <- "]"
-    if (LL == -Inf)
-        LL.closure <- "("
-    if (UL == Inf)
-        UL.closure <- ")"
-    paste0(LL.closure, LL, ", ", UL, UL.closure)
-  }
+format.interval(1.5, 1) # error: 1.5 is not an interval
+
+# Input is character
+format.interval(c("1.756", "1.823"))
+
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
