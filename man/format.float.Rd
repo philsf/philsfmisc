@@ -16,7 +16,8 @@ format.float(x)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{value}{
-  Value to be formatted
+  Value to be formatted.
+  Input can be a numeric or character value.
   }
   \item{digits}{
   Number of fixed digits, after decimal point (default = 2)
