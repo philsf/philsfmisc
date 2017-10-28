@@ -35,7 +35,7 @@ This uses \code{\link{format.float}} for formatting each of the limits of the in
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Felipe Figueiredo
 }
 \note{
 %%  ~~further notes~~
