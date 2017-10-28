@@ -2,8 +2,7 @@ Package: philsfmisc
 Type: Package
 Title: philsf's miscellaneous R functions
 Version: 0.1.0
-Author: Felipe Figueiredo [aut, cre]
-Maintainer: Felipe Figueiredo <philsf79@gmail.com>
+Authors@R: person("Felipe", "Figueiredo", email = "philsf79@gmail.com", role = c("aut", "cre"))
 Description: Miscellaneous R functions for convenient data analyses.
 License: GPL2
 Encoding: UTF-8
