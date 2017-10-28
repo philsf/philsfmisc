@@ -39,7 +39,7 @@ The default method for \code{is.within} applied to an atomic vector returns a lo
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Felipe Figueiredo
 }
 \note{
 %%  ~~further notes~~
