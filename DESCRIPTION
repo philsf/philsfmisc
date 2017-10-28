@@ -2,9 +2,10 @@ Package: philsfmisc
 Type: Package
 Title: philsf's misc functions
 Version: 0.1.0
-Author: Felipe Figueiredo
+Author: Felipe Figueiredo [aut, cre]
 Maintainer: Felipe Figueiredo <philsf79@gmail.com>
 Description: philsf miscellaneous R functions
 License: GPL2
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/philsf/philsfmisc
