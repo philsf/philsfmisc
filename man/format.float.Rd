@@ -54,6 +54,15 @@ Felipe Figueiredo
 format.float(0.5)
 format.float(0.672, 4)
 format.float(1.4927, 1)
+format.float(c(1.756, 1.823))
+
+# Input is character
+format.float("1.12543")
+format.float(c("1.756", "1.823"))
+
+# Useful for data frames
+DF <- data.frame(num = c(1.756, 1.823), char = c("1.756", "1.823"), stringsAsFactors = F)
+transform(DF, num = format.float(num), char = format.float(char))
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
