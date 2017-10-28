@@ -8,7 +8,7 @@ Format numbers for printing
 \description{
 Format numbers, given a `digits` argument as significant decimal places.
 
-\note{Numbers are always assumed to be \code{\link[base]{double}}.}
+{Numbers are always assumed to be \code{\link[base]{double}}.}
 }
 \usage{
 format.float(x)
