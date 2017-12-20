@@ -12,14 +12,15 @@ geomean(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
+  \item{x}{vector of numeric.
 %%     ~~Describe \code{x} here~~
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+If any null values are present in \code{x} they are first replaced with \code{NA}.
 }
 \value{
+Returns the geometric mean of \code{x}.
 %%  ~Describe the value returned
 %%  If it is a LIST, use
 %%  \item{comp1 }{Description of 'comp1'}
@@ -30,7 +31,7 @@ geomean(x)
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Felipe Figueiredo
 }
 \note{
 %%  ~~further notes~~
@@ -42,6 +43,10 @@ geomean(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
+geomean(c(10,100,1000))
+geomean(c(10,100,1000,0))
+
+
 ##---- Should be DIRECTLY executable !! ----
 ##-- ==>  Define data, use random,
 ##--	or do  help(data=index)  for the standard data sets.
