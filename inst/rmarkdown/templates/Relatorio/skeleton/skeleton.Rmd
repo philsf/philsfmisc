@@ -64,7 +64,7 @@ Esta análise foi realizada utilizando-se o software `R` versão `r getRversion(
 
 # Resultados
 
-# Exceções e Desvios do teste
+<!-- # Exceções e Desvios do teste -->
 
 # Conclusões
 
