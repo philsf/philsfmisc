@@ -17,3 +17,10 @@ To install the *development* version, use the following command:
 - `format.float`
 - `format.interval`
 - `is.within`
+
+## Report template
+
+An R Markdown template is provided suitable for reports of data analyses.
+
+It includes a reference docx with pre-formatted styles for easy creation of professional reports, in brazilian portuguese by default.
+This reference styles docx includes a template `URL` pointing to a `philsf-biostat` organization repository.
