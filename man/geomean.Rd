@@ -43,18 +43,10 @@ Felipe Figueiredo
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-geomean(c(10,100,1000))
-geomean(c(10,100,1000,0))
+d <- c(10,100,1000)
+geomean(d)
+geomean(c(d,0)) # na.rm is TRUE by default for sd()
 
-
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
