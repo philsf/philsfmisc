@@ -42,14 +42,9 @@ logsd2cv(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+d <- c(10,100,1000)
+sd(log10(d)) # 1
+logsd2cv(1) # 131.08\%
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
