@@ -17,6 +17,10 @@ To install the *development* version, use the following command:
 - `format.float`
 - `format.interval`
 - `is.within`
+- `geomean`
+- `geosd`
+- `geocv`
+- `logsd2cv`
 
 ## Report template
 
