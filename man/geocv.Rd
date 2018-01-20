@@ -1,7 +1,7 @@
 \name{geocv}
 \alias{geocv}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{Compute the CV of log-normally distributed data.
 %%  ~~function to do ... ~~
 }
 \description{
