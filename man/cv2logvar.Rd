@@ -1,5 +1,5 @@
-\name{cv2var}
-\alias{cv2var}
+\name{cv2logvar}
+\alias{cv2logvar}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Convert the CV from a log-normal variable to the log-transformed variance.
 %%  ~~function to do ... ~~
@@ -8,7 +8,7 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-cv2var(x)
+cv2logvar(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
