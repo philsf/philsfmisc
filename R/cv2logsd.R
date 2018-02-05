@@ -1,4 +1,4 @@
-cv2sd <- function(CV) {
-  SD <- sqrt( cv2var(CV) )
+cv2logsd <- function(CV) {
+  SD <- sqrt( cv2logvar(CV) )
   SD
 }
