@@ -1,5 +1,5 @@
-\name{cv2sd}
-\alias{cv2sd}
+\name{cv2logsd}
+\alias{cv2logsd}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Convert the CV from a log-normal variable to the log-transformed standard deviation.
 %%  ~~function to do ... ~~
@@ -8,7 +8,7 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-cv2sd(x)
+cv2logsd(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
