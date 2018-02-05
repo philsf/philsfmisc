@@ -1,14 +1,14 @@
-\name{logsd2cv}
-\alias{logsd2cv}
+\name{cv2logsd}
+\alias{cv2logsd}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Convert the log-transformed standard deviation from a log-normal variable to the CV.
+\title{Convert the CV from a log-normal variable to the log-transformed standard deviation.
 %%  ~~function to do ... ~~
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-logsd2cv(x)
+cv2logsd(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -42,9 +42,8 @@ logsd2cv(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-d <- c(10,100,1000)
-sd(log10(d)) # 1
-logsd2cv(1) # 1413.21\%
+cv2logsd(50)
+# [1] 0.2051523
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
