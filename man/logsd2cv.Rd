@@ -44,7 +44,7 @@ logsd2cv(x)
 \examples{
 d <- c(10,100,1000)
 sd(log10(d)) # 1
-logsd2cv(1) # 131.08\%
+logsd2cv(1) # 1413.21\%
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
