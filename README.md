@@ -21,6 +21,7 @@ To install the *development* version, use the following command:
 - `geosd`
 - `geocv`
 - `logsd2cv`
+- `predint`
 
 ## Report template
 
