@@ -62,7 +62,7 @@ format.float("1.12543")
 format.float(c("1.756", "1.823"))
 
 # Useful for data frames
-DF <- data.frame(num = c(1.756, 1.823), char = c("1.756", "1.823"), stringsAsFactors = F)
+DF <- data.frame(num = c(1.756, 1.823), char = c("1.756", "1.823"), stringsAsFactors = FALSE)
 transform(DF, num = format.float(num), char = format.float(char))
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
