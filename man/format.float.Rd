@@ -11,11 +11,11 @@ Format numbers, given a `digits` argument as significant decimal places.
 {Numbers are always assumed to be \code{\link[base]{double}}.}
 }
 \usage{
-format.float(x)
+format.float(x, digits)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{value}{
+  \item{x}{
   Value to be formatted.
   Input can be a numeric or character value.
   }
