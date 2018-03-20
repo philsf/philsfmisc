@@ -1,4 +1,4 @@
-predint <- function(datavector, level = 0.95) {
+predint <- function(datavector, alpha = 0.05) {
   datavector <- datavector[!is.na(datavector)] # discard NA values
   N <- length(datavector)
   xbar <- mean(datavector, na.rm = na.rm) # X bar
