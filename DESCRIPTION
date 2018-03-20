@@ -1,10 +1,10 @@
 Package: philsfmisc
 Type: Package
 Title: philsf's miscellaneous R functions
-Version: 0.4.0
+Version: 0.5.0
 Authors@R: person("Felipe", "Figueiredo", email = "philsf79@gmail.com", role = c("aut", "cre"))
 Description: Miscellaneous R functions for convenient data analyses.
-License: GPL2
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/philsf/philsfmisc
