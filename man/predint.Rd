@@ -12,7 +12,7 @@ predint(datavector, alpha = 0.05)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{datavector}{the data vector}
+  \item{datavector}{a numeric vector or an R object which is coercible to one by as.double(x)}
   \item{alpha}{the significance level required (default = 0.05)
 %%     ~~Describe \code{x} here~~
 }
