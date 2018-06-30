@@ -8,7 +8,7 @@ Convenience function to format proportions as percentages
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-format.pct(p, digits = 0, pct.symbol = TRUE)
+format.pct(p, digits = 1, pct.symbol = TRUE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
