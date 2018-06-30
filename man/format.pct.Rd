@@ -48,14 +48,13 @@ format.pct(p, digits = 1, pct.symbol = TRUE)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+format.pct(.1)
+format.pct(c(.42, .99), 0)
 
-## The function is currently defined as
-function (x) 
-{
-  }
+m <- 10*matrix(c(1, 1.1, .9, 2), nrow = 2)
+format.pct(fisher.test(m)$p.value)
+format.pct(fisher.test(5*m)$p.value)
+format.pct(fisher.test(m)$conf.int)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
