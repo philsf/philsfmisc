@@ -16,11 +16,15 @@ To install the *development* version, use the following command:
 
 - `format.float`
 - `format.interval`
+- `format.pct`
 - `is.within`
 - `geomean`
 - `geosd`
 - `geocv`
 - `logsd2cv`
+- `logvar2cv`
+- `cv2logsd`
+- `cv2logvar`
 - `predint`
 
 ## Report template

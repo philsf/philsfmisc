@@ -1,34 +1,26 @@
-\name{geocv}
-\alias{geocv}
+\name{format.pct}
+\alias{format.pct}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Compute the CV of log-normally distributed data.
-%%  ~~function to do ... ~~
+\title{
+Convenience function to format proportions as percentages
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-geocv(x, na.rm = TRUE)
+format.pct(p, digits = 1, pct.symbol = TRUE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
-}
-  \item{na.rm}{
-%%     ~~Describe \code{na.rm} here~~
-}
+  \item{p}{a numeric vector assumed to be a proportion.}
+  \item{digits}{the number of decimal digits to be used in the output.}
+  \item{pct.symbol}{(logical) whether or not to include the percent sign in the output.}
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
-}
+A character value formatted as percentages}
 \references{
 %% ~put references to the literature/web site here ~
 }
@@ -45,9 +37,13 @@ geocv(x, na.rm = TRUE)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-d <- c(10,100,1000)
-geocv(d)
-geocv(d) == logsd2cv(1)
+format.pct(.1)
+format.pct(c(.42, .99), 0)
+
+m <- 10*matrix(c(1, 1.1, .9, 2), nrow = 2)
+format.pct(fisher.test(m)$p.value)
+format.pct(fisher.test(5*m)$p.value)
+format.pct(fisher.test(m)$conf.int)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
