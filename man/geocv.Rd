@@ -8,15 +8,12 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-geocv(x, digits = 2, na.rm = TRUE)
+geocv(x, na.rm = TRUE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{
 %%     ~~Describe \code{x} here~~
-}
-  \item{digits}{
-%%     ~~Describe \code{digits} here~~
 }
   \item{na.rm}{
 %%     ~~Describe \code{na.rm} here~~

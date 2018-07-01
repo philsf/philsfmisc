@@ -11,11 +11,11 @@ Format numbers, given a `digits` argument as significant decimal places.
 {Numbers are always assumed to be \code{\link[base]{double}}.}
 }
 \usage{
-format.float(x)
+format.float(x, digits)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{value}{
+  \item{x}{
   Value to be formatted.
   Input can be a numeric or character value.
   }
@@ -62,7 +62,7 @@ format.float("1.12543")
 format.float(c("1.756", "1.823"))
 
 # Useful for data frames
-DF <- data.frame(num = c(1.756, 1.823), char = c("1.756", "1.823"), stringsAsFactors = F)
+DF <- data.frame(num = c(1.756, 1.823), char = c("1.756", "1.823"), stringsAsFactors = FALSE)
 transform(DF, num = format.float(num), char = format.float(char))
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
