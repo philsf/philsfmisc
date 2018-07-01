@@ -1,3 +1,3 @@
-logsd2cv <- function(x, na.rm = TRUE) {
+logsd2cv <- function(x) {
   sqrt(exp((log(10)^2)*x^2) - 1)*100
 }
