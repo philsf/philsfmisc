@@ -1,4 +1,4 @@
-geomean <- function(datavector) {
-  datavector[(datavector == 0)] <- NA # discard null values
-  10^mean(log10(datavector), na.rm = T)
+geomean <- function(x) {
+  x[(x == 0)] <- NA # discard null values
+  10^mean(log10(x), na.rm = T)
 }
