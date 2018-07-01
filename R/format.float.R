@@ -1,5 +1,5 @@
-format.float <- function(value, digits = 2) {
-  value <- suppressWarnings(as.numeric(value))
-  value <- formatC(value, format = "f", digits = digits)
-  value
+format.float <- function(x, digits = 2) {
+  x <- suppressWarnings(as.numeric(x))
+  x <- formatC(x, format = "f", digits = digits)
+  x
 }

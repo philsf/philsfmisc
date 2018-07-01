@@ -53,7 +53,7 @@ Felipe Figueiredo
 \examples{
 format.interval(c(1.756, 1.823))
 
-format.interval(1.5, 1) # error: 1.5 is not an interval
+# format.interval(1.5, 1) # error: 1.5 is not an interval
 
 # Input is character
 format.interval(c("1.756", "1.823"))

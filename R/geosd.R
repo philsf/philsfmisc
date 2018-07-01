@@ -1,3 +1,3 @@
-geosd <- function(datavector) {
-  10^sd(log10(datavector))
+geosd <- function(x) {
+  10^sd(log10(x))
 }
