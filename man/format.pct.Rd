@@ -12,26 +12,15 @@ format.pct(p, digits = 1, pct.symbol = TRUE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{p}{
-%%     ~~Describe \code{x} here~~ 
-  }
-  \item{digits}{
-  
-  }
-  \item{pct.symbol}{
-  
-  }
+  \item{p}{a numeric vector assumed to be a proportion.}
+  \item{digits}{the number of decimal digits to be used in the output.}
+  \item{pct.symbol}{(logical) whether or not to include the percent sign in the output.}
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
-}
+A character value formatted as percentages}
 \references{
 %% ~put references to the literature/web site here ~
 }
