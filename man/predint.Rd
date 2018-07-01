@@ -4,7 +4,7 @@
 \title{Prediction Intervals for given data
 %%  ~~function to do ... ~~
 }
-\description{Compute a prediction of a vector, which is assumed normally distributed with unknown mean and variance.
+\description{Compute a prediction interval of a vector, which is assumed normally distributed with unknown mean and variance.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
