@@ -1,5 +1,10 @@
+#' Prediction Intervals for given data
+#'
 #' @importFrom stats sd
 #' @importFrom stats qt
+#'
+#' @param datavector
+#' @param alpha
 #'
 #' @author Felipe Figueiredo
 #' @export
