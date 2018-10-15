@@ -30,8 +30,6 @@ options(scipen = 999)
 library(pander)
 library(knitr)
 library(philsfmisc)
-
-
 ```
 
 ---
