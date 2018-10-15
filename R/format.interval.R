@@ -1,7 +1,18 @@
 #'
+#' @description
+#'
+#' @param interval
+#' @param digits
+#'
+#' @return
+#'
+#' @examples
+#'
+#'
+#'
+#'
 #' @author Felipe Figueiredo
 #' @export
-#'
 
 format.interval <- function(interval, digits = 2) {
   if (is.null(interval)) return(NULL) # if no argument passed, return

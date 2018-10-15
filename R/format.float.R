@@ -2,8 +2,10 @@
 #'
 #' @description Format numbers, given a `digits` argument as significant decimal places.
 #'   Numbers are always assumed to be \code{\link[base]{double}}.
+#'
 #' @param x Value to be formatted.
 #'   Input can be a numeric or character value.
+#'
 #' @param digits Number of fixed digits, after decimal point
 #'
 #' @return Returns a character value.
@@ -23,7 +25,6 @@
 #'
 #' @author Felipe Figueiredo
 #' @export
-#'
 
 format.float <- function(x, digits = 2) {
   x <- suppressWarnings(as.numeric(x))

@@ -1,4 +1,14 @@
 #' Compute the geometric mean
+
+#' @description
+#'
+#' @param x
+#'
+#' @return
+#'
+#' @examples
+#'
+#'
 #'
 #' @param x vector of numeric.
 #' @details If any null values are present in \code{x} they are first replaced with \code{NA}.

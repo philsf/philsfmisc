@@ -1,8 +1,17 @@
 #' Convenience function to format proportions as percentages
 #'
+#' @description
+#'
 #' @param p a numeric vector assumed to be a proportion.
 #' @param digits the number of decimal digits to be used in the output.
 #' @param pct.symbol (logical) whether or not to include the percent sign in the output.
+#'
+#' @return
+#'
+#' @examples
+#'
+#'
+#'
 #'
 #' @return A character value formatted as percentages
 #'

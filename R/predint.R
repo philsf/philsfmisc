@@ -1,13 +1,21 @@
 #' Prediction Intervals for given data
 #'
-#' @importFrom stats sd
-#' @importFrom stats qt
+#' @description
 #'
 #' @param datavector
 #' @param alpha
 #'
+#' @return
+#'
+#' @examples
+#'
+#'
+#'
+#'
 #' @author Felipe Figueiredo
 #' @export
+#' @importFrom stats sd
+#' @importFrom stats qt
 
 predint <- function(datavector, alpha = 0.05) {
   datavector <- datavector[!is.na(datavector)] # discard NA values
