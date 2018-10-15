@@ -1,3 +1,4 @@
+#' @importFrom stats sd
 #'
 #' @author Felipe Figueiredo
 #' @export
