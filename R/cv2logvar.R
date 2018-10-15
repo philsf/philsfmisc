@@ -1,4 +1,4 @@
-#'
+#' Convert the CV from a log-normal variable to the log-transformed variance.
 #' @description
 #'
 #' @param x
@@ -6,9 +6,8 @@
 #' @return
 #'
 #' @examples
-#'
-#'
-#'
+#' cv2logvar(50)
+#' # [1] 0.04208748
 #'
 #' @author Felipe Figueiredo
 #' @export
