@@ -1,3 +1,7 @@
+#'
+#' @author Felipe Figueiredo
+#' @export
+
 format.pct <- function(p, digits = 1, pct.symbol = FALSE) {
   symbol <- "%"
   if (!pct.symbol) symbol <- NULL

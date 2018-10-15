@@ -1,3 +1,8 @@
+#'
+#' @author Felipe Figueiredo
+#' @export
+#'
+
 format.interval <- function(interval, digits = 2) {
   if (is.null(interval)) return(NULL) # if no argument passed, return
   if (anyNA(interval)) return(NA) # return NA in case of incomplete interval

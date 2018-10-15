@@ -1,3 +1,7 @@
+#'
+#' @author Felipe Figueiredo
+#' @export
+
 predint <- function(datavector, alpha = 0.05) {
   datavector <- datavector[!is.na(datavector)] # discard NA values
   N <- length(datavector)
