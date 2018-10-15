@@ -7,6 +7,7 @@ output:
     fig_caption: yes
     fig_height: 6
     fig_width: 6
+    keep_md: yes
     number_sections: yes
     toc: yes
   pdf_document:
@@ -18,7 +19,7 @@ output:
     fig_width: 6
     reference_docx: misc/style.docx
     toc: yes
-subtitle: 'CÓDIGO: analise_dados_XX_aaaa'
+subtitle: 'RELATÓRIO: analise_dados_XX_aaaa'
 toc-title: "Sumário"
 ---
 
@@ -29,8 +30,6 @@ options(scipen = 999)
 library(pander)
 library(knitr)
 library(philsfmisc)
-
-
 ```
 
 ---
