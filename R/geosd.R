@@ -1,14 +1,16 @@
+#' Compute the "geometric standard deviation" of data
 #'
-#' @description
+#' @description The "geometric standard deviation" is not as well-defined as the geometric mean.
+#'  This function returns the analogous concept of \code{sd} in the same manner of the geometric mean.
 #'
 #' @param x
 #'
-#' @return
+#' @return The anti-log of the \code{sd} of log-transformed data `x`.
+#'   Base 10 is assumed as a fixed default in this version.
 #'
 #' @examples
-#'
-#'
-#'
+#' d <- c(10,100,1000)
+#' geosd(d)
 #'
 #' @author Felipe Figueiredo
 #' @export
