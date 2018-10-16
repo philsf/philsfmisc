@@ -1,3 +1,4 @@
+#' Convert the log-transformed variance from a log-normal variable to the CV.
 #'
 #' @description
 #'
@@ -6,9 +7,9 @@
 #' @return
 #'
 #' @examples
-#'
-#'
-#'
+#' d <- c(10,100,1000)
+#' var(log10(d)) # 1
+#' logvar2cv(1) # 1413.21\%
 #'
 #' @author Felipe Figueiredo
 #' @export
