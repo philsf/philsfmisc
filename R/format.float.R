@@ -24,7 +24,7 @@
 #' transform(DF, num = format.float(num), char = format.float(char))
 #'
 #' @author Felipe Figueiredo
-#' @export
+#' @export format.float
 
 format.float <- function(x, digits = 2) {
   x <- suppressWarnings(as.numeric(x))

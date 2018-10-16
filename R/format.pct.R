@@ -18,7 +18,7 @@
 #' format.pct(fisher.test(m)$conf.int)
 #'
 #' @author Felipe Figueiredo
-#' @export
+#' @export format.pct
 
 format.pct <- function(p, digits = 1, pct.symbol = FALSE) {
   symbol <- "%"

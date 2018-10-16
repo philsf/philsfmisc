@@ -17,7 +17,7 @@
 #' format.interval(c("1.756", "1.823"))
 #'
 #' @author Felipe Figueiredo
-#' @export
+#' @export format.interval
 
 format.interval <- function(interval, digits = 2) {
   if (is.null(interval)) return(NULL) # if no argument passed, return
