@@ -1,3 +1,23 @@
+#' Prediction Intervals for given data
+#'
+#' @description Compute a prediction interval of a vector, which is assumed
+#'  normally distributed with unknown mean and variance.
+#'
+#' @param datavector A numeric value, vector or list.
+#' @param alpha the significance level required
+#'
+#' @return a vector of two values
+#'   A vector with values giving lower and upper prediction limits for each parameter.
+#'
+#' @examples
+#' x <- rnorm(30)
+#' predint(x)
+#'
+#' @author Felipe Figueiredo
+#' @export
+#' @importFrom stats sd
+#' @importFrom stats qt
+
 predint <- function(datavector, alpha = 0.05) {
   datavector <- datavector[!is.na(datavector)] # discard NA values
   N <- length(datavector)
