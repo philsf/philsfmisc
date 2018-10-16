@@ -5,7 +5,7 @@
 #' @param x A numeric value, vector or list.
 #' @param na.rm (logical) whether or not to remove \code{NA} values from computation
 #'
-#' @return
+#' @return Returns the geometric CV (as percentage)
 #'
 #' @examples
 #' d <- c(10,100,1000)

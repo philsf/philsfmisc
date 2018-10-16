@@ -4,7 +4,7 @@
 #'
 #' @param x A numeric value, vector or list.
 #'
-#' @return
+#' @return Returns the geometric CV (as percentage)
 #'
 #' @examples
 #' d <- c(10,100,1000)

@@ -4,7 +4,7 @@
 #'
 #' @param x A numeric value, vector or list.
 #'
-#' @return
+#' @return Returns the log-transformed variance.
 #'
 #' @examples
 #' cv2logvar(50)

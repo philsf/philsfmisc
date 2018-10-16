@@ -4,7 +4,7 @@
 #'
 #' @param x A numeric value, vector or list.
 #'
-#' @return
+#' @return Returns log-transformed sd
 #'
 #' @examples
 #' cv2logsd(50)
