@@ -1,3 +1,8 @@
+# philsfmisc 0.6.2
+
+- Now uses `roxygen2` for function documentation creation ( #37 )
+- Styles updated for all templates ( #45 )
+
 # philsfmisc 0.6.1
 
 - Styles updated #41
