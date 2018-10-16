@@ -1,15 +1,20 @@
+#' Format intervals for printing
 #'
-#' @description
+#' @description Format intervals, given a `digits` argument as significant decimal places.
 #'
-#' @param interval
-#' @param digits
+#' @param interval Must be a vector of two values.
+#'   Values can be either numeric or character.
 #'
-#' @return
+#' @param digits Number of fixed digits, after decimal point.
+#'
+#' @return Returns a character value.
 #'
 #' @examples
+#' format.interval(c(1.756, 1.823))
+#' # format.interval(1.5, 1) # error: 1.5 is not an interval
 #'
-#'
-#'
+#' # Input is character
+#' format.interval(c("1.756", "1.823"))
 #'
 #' @author Felipe Figueiredo
 #' @export
