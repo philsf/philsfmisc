@@ -1,16 +1,17 @@
 #' Prediction Intervals for given data
 #'
-#' @description
+#' @description Compute a prediction interval of a vector, which is assumed
+#'  normally distributed with unknown mean and variance.
 #'
-#' @param datavector
-#' @param alpha
+#' @param datavector a numeric vector or an R object which is coercible to one by as.double(x)
+#' @param alpha the significance level required
 #'
-#' @return
+#' @return a vector of two values
+#'   A vector with values giving lower and upper prediction limits for each parameter.
 #'
 #' @examples
-#'
-#'
-#'
+#' x <- rnorm(30)
+#' predint(x)
 #'
 #' @author Felipe Figueiredo
 #' @export
