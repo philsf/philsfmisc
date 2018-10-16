@@ -1,18 +1,13 @@
 #' Compute the geometric mean
-
+#'
 #' @description
-#'
-#' @param x
-#'
-#' @return
-#'
-#' @examples
-#'
 #'
 #' @param x A numeric value, vector or list.
 #'
 #' @details If any null values are present in \code{x} they are first replaced with \code{NA}.
+#'
 #' @return Returns the geometric mean of \code{x}.
+#'
 #' @examples
 #' d <- c(10,100,1000)
 #' geomean(d)
