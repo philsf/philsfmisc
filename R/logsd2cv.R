@@ -2,7 +2,7 @@
 #'
 #' @description
 #'
-#' @param x
+#' @param x A numeric value, vector or list.
 #'
 #' @return
 #'

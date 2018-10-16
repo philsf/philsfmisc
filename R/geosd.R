@@ -3,7 +3,7 @@
 #' @description The "geometric standard deviation" is not as well-defined as the geometric mean.
 #'  This function returns the analogous concept of \code{sd} in the same manner of the geometric mean.
 #'
-#' @param x
+#' @param x A numeric value, vector or list.
 #'
 #' @return The anti-log of the \code{sd} of log-transformed data `x`.
 #'   Base 10 is assumed as a fixed default in this version.

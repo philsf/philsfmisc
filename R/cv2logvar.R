@@ -1,7 +1,8 @@
 #' Convert the CV from a log-normal variable to the log-transformed variance.
+#'
 #' @description
 #'
-#' @param x
+#' @param x A numeric value, vector or list.
 #'
 #' @return
 #'

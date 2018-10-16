@@ -9,8 +9,8 @@
 #' @examples
 #'
 #'
+#' @param x A numeric value, vector or list.
 #'
-#' @param x vector of numeric.
 #' @details If any null values are present in \code{x} they are first replaced with \code{NA}.
 #' @return Returns the geometric mean of \code{x}.
 #' @examples

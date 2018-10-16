@@ -3,7 +3,7 @@
 #' @description Compute a prediction interval of a vector, which is assumed
 #'  normally distributed with unknown mean and variance.
 #'
-#' @param datavector a numeric vector or an R object which is coercible to one by as.double(x)
+#' @param datavector A numeric value, vector or list.
 #' @param alpha the significance level required
 #'
 #' @return a vector of two values

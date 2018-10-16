@@ -2,7 +2,7 @@
 #'
 #' @description
 #'
-#' @param x vector of numeric
+#' @param x A numeric value, vector or list.
 #' @param na.rm (logical) whether or not to remove \code{NA} values from computation
 #'
 #' @return
