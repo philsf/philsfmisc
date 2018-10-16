@@ -8,7 +8,7 @@
 #' @return
 #'
 #' @examples
-#' -d <- c(10,100,1000)
+#' d <- c(10,100,1000)
 #' geocv(d)
 #' geocv(d) == logsd2cv(1)
 #'
