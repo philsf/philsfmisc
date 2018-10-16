@@ -2,16 +2,15 @@
 #'
 #' @description
 #'
-#' @param x
-#' @param na.rm
+#' @param x vector of numeric
+#' @param na.rm (logical) whether or not to remove \code{NA} values from computation
 #'
 #' @return
 #'
 #' @examples
-#'
-#'
-#'
-#'
+#' -d <- c(10,100,1000)
+#' geocv(d)
+#' geocv(d) == logsd2cv(1)
 #'
 #' @author Felipe Figueiredo
 #' @export
