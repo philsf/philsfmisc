@@ -4,6 +4,7 @@
 #'
 #' This function formats numbers with the given number of decimal digits.
 #'   Numbers are always assumed to be \code{\link[base]{double}}.
+#'   If there is a percent sign in \code{x}, it is removed prior to formatting.
 #'
 #' @param x Value to be formatted.
 #'   Input can be a numeric or character value.
@@ -20,6 +21,9 @@
 #' # Input is character
 #' format.float("1.12543")
 #' format.float(c("1.756", "1.823"))
+#' # Input is percentage
+#' format.float("10%", 1)
+#' format.float("15 %", 1)
 #'
 #' # Useful for data frames
 #' DF <- data.frame(num = c(1.756, 1.823), char = c("1.756", "1.823"), stringsAsFactors = FALSE)
