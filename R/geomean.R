@@ -1,5 +1,10 @@
 #' Compute the geometric mean
 #'
+#' `geomean` computes the anti-log10 of the arithmetic mean of log10-transformed data.
+#'
+#' This function first log10-transforms the original data \code{x}.
+#' It then back-transforms the \code{mean} of the results from the log10 scale.
+#'
 #' @param x A numeric value, vector or list.
 #'
 #' @details If any null values are present in \code{x} they are first replaced with \code{NA}.
