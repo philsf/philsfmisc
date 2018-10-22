@@ -19,14 +19,12 @@
 #' format.interval(c("1.756", "1.823"))
 #'
 #' @author Felipe Figueiredo
-#' @importFrom stringr str_remove
 #' @export format.interval
 
 format.interval <- function(interval, digits = 2) {
   if (is.null(interval)) return(NULL) # if no argument passed, return
   if (anyNA(interval)) return(NA) # return NA in case of incomplete interval
   stopifnot(length(interval) == 2) # require an interval as argument
-  stringr::str_remove(interval, "%")
   LL <- format.float(interval[1], digits = digits)
   UL <- format.float(interval[2], digits = digits)
   LL.closure <- "["

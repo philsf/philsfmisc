@@ -26,9 +26,11 @@
 #' transform(DF, num = format.float(num), char = format.float(char))
 #'
 #' @author Felipe Figueiredo
+#' @importFrom stringr str_remove
 #' @export format.float
 
 format.float <- function(x, digits = 2) {
+  stringr::str_remove(x, "%")
   x <- suppressWarnings(as.numeric(x))
   x <- formatC(x, format = "f", digits = digits)
   x
