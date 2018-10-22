@@ -16,7 +16,10 @@ Values can be either numeric or character.}
 Returns a character value.
 }
 \description{
-Format intervals, given a `digits` argument as significant decimal places.
+\code{format.interval} prepares intervals for results printing.
+}
+\details{
+This function formats a given interval with the given number of decimal digits.
 }
 \examples{
 format.interval(c(1.756, 1.823))

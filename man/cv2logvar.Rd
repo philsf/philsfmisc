@@ -2,7 +2,7 @@
 % Please edit documentation in R/cv2logvar.R
 \name{cv2logvar}
 \alias{cv2logvar}
-\title{Convert the CV from a log-normal variable to the log-transformed variance.}
+\title{Convert the CV to the log10 var (log-normal variable).}
 \usage{
 cv2logvar(x)
 }
@@ -13,7 +13,10 @@ cv2logvar(x)
 Returns the log-transformed variance.
 }
 \description{
-
+\code{cv2logsd} converts the CV from a log-normal variable to the log10-transformed variance.
+}
+\details{
+This function converts the CV to the log10-transformed variance by inverting the formula used in \code{logvar2cv}.
 }
 \examples{
 cv2logvar(50)

@@ -2,14 +2,14 @@
 % Please edit documentation in R/is.within.R
 \name{is.within}
 \alias{is.within}
-\title{Check if number is within given interval}
+\title{Test if number is within given interval}
 \usage{
-is.within(value, interval, open.interval = FALSE)
+is.within(x, interval, open.interval = FALSE)
 }
 \arguments{
-\item{value}{A numeric value, vector or list.}
+\item{x}{A numeric x, vector or list.}
 
-\item{interval}{The (numeric) interval within which \code{value} is being tested.}
+\item{interval}{The (numeric) interval within which \code{x} is being tested.}
 
 \item{open.interval}{logical: should \code{interval} be regarded as an open interval?}
 }
@@ -18,7 +18,10 @@ The default method for \code{is.within} applied to an atomic vector returns
  a logical vector of the same length as its argument x, containing TRUE for those elements contained within \code{interval}, and FALSE otherwise.
 }
 \description{
-
+\code{is.within} tests if object \code{x} is within \code{interval}.
+}
+\details{
+This function tests if the given value is contained within a (possibly open) given interval.
 }
 \examples{
 is.within(1.5, c(0,5)) # TRUE

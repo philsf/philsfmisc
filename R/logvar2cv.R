@@ -1,8 +1,11 @@
-#' Convert the log-transformed variance from a log-normal variable to the CV.
+#' Convert the log10 variance to the CV (log-normal variable).
 #'
-#' @description
+#' \code{logvar2cv} converts the log10-transformed \code{var} of a log-normal variable to the CV.
 #'
-#' @param x A numeric value, vector or list.
+#' This function converts the log10-transformed variance of a log-normal variable to the CV.
+#'
+#' @param x The log10-transformed \code{var} of data.
+#'   A numeric value, vector or list.
 #'
 #' @return Returns the geometric CV (as percentage)
 #'

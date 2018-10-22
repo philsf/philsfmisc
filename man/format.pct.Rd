@@ -2,9 +2,9 @@
 % Please edit documentation in R/format.pct.R
 \name{format.pct}
 \alias{format.pct}
-\title{Convenience function to format proportions as percentages}
+\title{Format proportions as percentages for printing}
 \usage{
-\method{format}{pct}(p, digits = 1, pct.symbol = FALSE)
+\method{format}{pct}(p, digits = 1, pct.symbol = TRUE)
 }
 \arguments{
 \item{p}{a numeric vector assumed to be a proportion.}
@@ -17,7 +17,11 @@
 A character value formatted as percentages
 }
 \description{
-
+\code{format.pct} prepares proportions as percentages for results printing, possibly with a percent sign.
+}
+\details{
+This function multiplies the proportion by 100, formats with the given number of decimal digits.
+It also (optionally) includes a percent sign.
 }
 \examples{
 format.pct(.1)

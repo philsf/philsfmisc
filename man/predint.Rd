@@ -16,7 +16,10 @@ a vector of two values
   A vector with values giving lower and upper prediction limits for each parameter.
 }
 \description{
-Compute a prediction interval of a vector, which is assumed
+\code{predint} computes a prediction interval of Normal data.
+}
+\details{
+This function computes a prediction interval of a vector, which is assumed
  normally distributed with unknown mean and variance.
 }
 \examples{

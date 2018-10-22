@@ -1,7 +1,9 @@
-#' Compute the "geometric standard deviation" of data
+#' Compute the "geometric standard deviation" of log-normal data.
 #'
-#' @description The "geometric standard deviation" is not as well-defined as the geometric mean.
-#'  This function returns the analogous concept of \code{sd} in the same manner of the geometric mean.
+#' \code{geosd} computes the anti-log of the standard deviation of log10-transformed data.
+#'
+#' The "geometric standard deviation" is not as well-defined as the geometric mean.
+#' Here we apply the analogous concept of the geometric mean to the \code{sd}.
 #'
 #' @param x A numeric value, vector or list.
 #'

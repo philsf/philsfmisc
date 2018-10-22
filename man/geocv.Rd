@@ -15,7 +15,11 @@ geocv(x, na.rm = TRUE)
 Returns the geometric CV (as percentage)
 }
 \description{
-
+\code{geocv} computes the CV of log-normal data.
+}
+\details{
+This function first log10-transforms the original data \code{x}.
+It then passes the standard deviation of the result to \code{logsd2cv}.
 }
 \examples{
 d <- c(10,100,1000)
