@@ -1,6 +1,8 @@
 #' Convenience function to format proportions as percentages
 #'
-#' @description
+#' @description This function formats proportions as percentages.
+#'   It multiplies the proportion by 100, formats with the given number of decimal digits.
+#'   It also (optionally) includes a percent sign.
 #'
 #' @param p a numeric vector assumed to be a proportion.
 #' @param digits the number of decimal digits to be used in the output.
