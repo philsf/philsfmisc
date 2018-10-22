@@ -16,7 +16,10 @@ Input can be a numeric or character value.}
 Returns a character value.
 }
 \description{
-Format numbers, given a `digits` argument as significant decimal places.
+\code{format.float} prepares numbers for results printing.
+}
+\details{
+This function formats numbers with the given number of decimal digits.
   Numbers are always assumed to be \code{\link[base]{double}}.
 }
 \examples{
