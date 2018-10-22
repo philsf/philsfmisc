@@ -1,4 +1,8 @@
-#' Convert the CV from a log-normal variable to the log-transformed standard deviation.
+#' Convert the CV to the log10 sd (log-normal variable).
+#'
+#' `cv2logsd` converts the CV from a log-normal variable to the log10-transformed standard deviation.
+#'
+#' This function converts the CV to the log10-transformed standard deviation, by taking the square root of \code{cv2logvar}.
 #'
 #' @param x A numeric value, vector or list.
 #'
