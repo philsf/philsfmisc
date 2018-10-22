@@ -2,6 +2,7 @@
 
 - `format.pct()`: Revert the default of `pct.symbol()` to `TRUE` (#49)
 - Percentage intervals are now correctly formatted (#35, #53)
+  - scope: `format.float()`, applies to all functions that depend on it
   - adds depencency: `stringr`
 - All functions now have description and details sections (#33)
 
