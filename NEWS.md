@@ -1,5 +1,9 @@
 # philsfmisc 0.6.3
 
+-
+- Percentage intervals are now correctly formatted (#35)
+  - adds depencency: stringr
+
 # philsfmisc 0.6.2
 
 - Now uses `roxygen2` for function documentation creation ( #37 )
