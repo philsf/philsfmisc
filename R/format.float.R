@@ -30,7 +30,7 @@
 #' @export format.float
 
 format.float <- function(x, digits = 2) {
-  stringr::str_remove(x, "%")
+  x <- stringr::str_remove(x, "%")
   x <- suppressWarnings(as.numeric(x))
   x <- formatC(x, format = "f", digits = digits)
   x
