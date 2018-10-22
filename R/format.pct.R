@@ -1,6 +1,6 @@
 #' Format proportions as percentages for printing
 #'
-#' `format.pct` prepares proportions as percentages for results printing, possibly with a percent sign.
+#' \code{format.pct} prepares proportions as percentages for results printing, possibly with a percent sign.
 #'
 #' This function multiplies the proportion by 100, formats with the given number of decimal digits.
 #' It also (optionally) includes a percent sign.

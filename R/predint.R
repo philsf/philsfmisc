@@ -1,6 +1,6 @@
 #' Prediction Intervals for given data
 #'
-#' `predint` computes a prediction interval of Normal data.
+#' \code{predint} computes a prediction interval of Normal data.
 #'
 #' This function computes a prediction interval of a vector, which is assumed
 #'  normally distributed with unknown mean and variance.

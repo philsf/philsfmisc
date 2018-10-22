@@ -1,6 +1,6 @@
 #' Compute the geometric mean
 #'
-#' `geomean` computes the anti-log of the \code{mean} of log10-transformed data.
+#' \code{geomean} computes the anti-log of the \code{mean} of log10-transformed data.
 #'
 #' This function first log10-transforms the original data \code{x}.
 #' It then back-transforms the \code{mean} of the results from the log10 scale.

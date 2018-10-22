@@ -1,6 +1,6 @@
 #' Compute the CV of log-normally distributed data.
 #'
-#' `geocv` computes the CV of log-normal data.
+#' \code{geocv} computes the CV of log-normal data.
 #'
 #' This function first log10-transforms the original data \code{x}.
 #' It then passes the standard deviation of the result to \code{logsd2cv}.

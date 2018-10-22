@@ -1,6 +1,6 @@
 #' Convert the log10 variance to the CV (log-normal variable).
 #'
-#' `logvar2cv` converts the log10-transformed \code{var} of a log-normal variable to the CV.
+#' \code{logvar2cv} converts the log10-transformed \code{var} of a log-normal variable to the CV.
 #'
 #' This function converts the log10-transformed variance of a log-normal variable to the CV.
 #'

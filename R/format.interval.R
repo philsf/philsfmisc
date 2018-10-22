@@ -1,6 +1,6 @@
 #' Format intervals for printing
 #'
-#' `format.interval` prepares intervals for results printing.
+#' \code{format.interval} prepares intervals for results printing.
 #'
 #' This function formats a given interval with the given number of decimal digits.
 #'

@@ -1,6 +1,6 @@
 #' Compute the "geometric standard deviation" of log-normal data.
 #'
-#' `geosd` computes the anti-log of the standard deviation of log10-transformed data.
+#' \code{geosd} computes the anti-log of the standard deviation of log10-transformed data.
 #'
 #' The "geometric standard deviation" is not as well-defined as the geometric mean.
 #' Here we apply the analogous concept of the geometric mean to the \code{sd}.

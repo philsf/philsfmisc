@@ -1,6 +1,6 @@
 #' Format numbers for printing
 #'
-#' `format.float` prepares numbers for results printing.
+#' \code{format.float} prepares numbers for results printing.
 #'
 #' This function formats numbers with the given number of decimal digits.
 #'   Numbers are always assumed to be \code{\link[base]{double}}.

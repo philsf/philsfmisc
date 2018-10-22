@@ -1,6 +1,6 @@
 #' Test if number is within given interval
 #'
-#' `is.within` tests if object \code{x} is within \code{interval}.
+#' \code{is.within} tests if object \code{x} is within \code{interval}.
 #'
 #' This function tests if the given value is contained within a (possibly open) given interval.
 #'

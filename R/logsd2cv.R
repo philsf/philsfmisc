@@ -1,6 +1,6 @@
 #' Convert the log10 standard deviation to the CV (log-normal variable).
 #'
-#' `logsd2cv` the log10-transformed \code{sd} from a log-normal variable to the CV.
+#' \code{logsd2cv} the log10-transformed \code{sd} from a log-normal variable to the CV.
 #'
 #' This function converts the log10-transformed standard deviation of a log-normal variable to the CV.
 #'
