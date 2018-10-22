@@ -1,11 +1,11 @@
 #' Test if number is within given interval
 #'
-#' `is.within` tests if object \code{value} is within \code{interval}.
+#' `is.within` tests if object \code{x} is within \code{interval}.
 #'
 #' This function tests if the given value is contained within a (possibly open) given interval.
 #'
-#' @param value A numeric value, vector or list.
-#' @param interval The (numeric) interval within which \code{value} is being tested.
+#' @param x A numeric x, vector or list.
+#' @param interval The (numeric) interval within which \code{x} is being tested.
 #' @param open.interval logical: should \code{interval} be regarded as an open interval?
 #'
 #' @return The default method for \code{is.within} applied to an atomic vector returns
@@ -21,7 +21,7 @@
 #' @author Felipe Figueiredo
 #' @export is.within
 
-is.within <- function(value, interval, open.interval = FALSE) {
-  if (open.interval) return( value > interval[1] & value < interval[2] )
-  value >= interval[1] & value <= interval[2]
+is.within <- function(x, interval, open.interval = FALSE) {
+  if (open.interval) return( x > interval[1] & x < interval[2] )
+  x >= interval[1] & x <= interval[2]
 }
