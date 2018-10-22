@@ -1,3 +1,5 @@
+# philsfmisc 0.6.3
+
 # philsfmisc 0.6.2
 
 - Now uses `roxygen2` for function documentation creation ( #37 )
