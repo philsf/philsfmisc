@@ -3,8 +3,8 @@
 #' \code{format.interval} prepares intervals for results printing.
 #'
 #' This function formats a given interval with the given number of decimal digits.
-#'   Numbers are always assumed to be \code{\link[base]{double}}.
-#'   If there is a percent sign in \code{x}, it is removed prior to formatting by \code{format.float}.
+#'   \code{interval} is always assumed to be a two valued vector of \code{\link[base]{double}}.
+#'   If there is a percent sign in any of \code{interval} values, it is removed prior to formatting by \code{format.float}.
 #'
 #' @param interval Must be a vector of two values.
 #'   Values can be either numeric or character.
