@@ -1,6 +1,6 @@
 # philsfmisc 0.6.3
 
-- Revert the default of `pct.symbol()` to `FALSE` (#49)
+- Revert the default of `pct.symbol()` to `TRUE` (#49)
 - Percentage intervals are now correctly formatted (#35, #53)
   - adds depencency: `stringr`
 - All functions now have description and details sections (#33)
