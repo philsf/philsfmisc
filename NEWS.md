@@ -1,5 +1,7 @@
 # philsfmisc 0.6.3
 
+- Revert the default of pct.symbol to FALSE (#49)
+
 # philsfmisc 0.6.2
 
 - Now uses `roxygen2` for function documentation creation ( #37 )
