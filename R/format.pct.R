@@ -1,4 +1,4 @@
-#' Convenience function to format proportions as percentages
+#' Format proportions as percentages for printing
 #'
 #' `format.pct` prepares proportions as percentages for results printing, possibly with a percent sign.
 #'

@@ -2,7 +2,7 @@
 #'
 #' `format.interval` prepares intervals for results printing.
 #'
-#' This function formats a given interval, with the given number of decimal digits.
+#' This function formats a given interval with the given number of decimal digits.
 #'
 #' @param interval Must be a vector of two values.
 #'   Values can be either numeric or character.
