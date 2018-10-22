@@ -1,6 +1,8 @@
 #' Prediction Intervals for given data
 #'
-#' @description Compute a prediction interval of a vector, which is assumed
+#' `predint` computes a prediction interval of Normal data.
+#'
+#' This function computes a prediction interval of a vector, which is assumed
 #'  normally distributed with unknown mean and variance.
 #'
 #' @param datavector A numeric value, vector or list.
