@@ -1,6 +1,8 @@
 # philsfmisc 0.6.3
 
 - Revert the default of pct.symbol to FALSE (#49)
+- Percentage intervals are now correctly formatted (#35)
+  - adds depencency: stringr
 
 # philsfmisc 0.6.2
 
