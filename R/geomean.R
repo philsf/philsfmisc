@@ -1,7 +1,5 @@
 #' Compute the geometric mean
 #'
-#' @description
-#'
 #' @param x A numeric value, vector or list.
 #'
 #' @details If any null values are present in \code{x} they are first replaced with \code{NA}.

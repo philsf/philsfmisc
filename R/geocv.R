@@ -1,7 +1,5 @@
 #' Compute the CV of log-normally distributed data.
 #'
-#' @description
-#'
 #' @param x A numeric value, vector or list.
 #' @param na.rm (logical) whether or not to remove \code{NA} values from computation
 #'

@@ -1,7 +1,5 @@
 #' Check if number is within given interval
 #'
-#' @description
-#'
 #' @param value A numeric value, vector or list.
 #' @param interval The (numeric) interval within which \code{value} is being tested.
 #' @param open.interval logical: should \code{interval} be regarded as an open interval?

@@ -1,7 +1,5 @@
 #' Convert the log-transformed variance from a log-normal variable to the CV.
 #'
-#' @description
-#'
 #' @param x A numeric value, vector or list.
 #'
 #' @return Returns the geometric CV (as percentage)
