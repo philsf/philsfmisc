@@ -16,7 +16,12 @@ Values can be either numeric or character.}
 Returns a character value.
 }
 \description{
-Format intervals, given a `digits` argument as significant decimal places.
+\code{format.interval} prepares intervals for results printing.
+}
+\details{
+This function formats a given interval with the given number of decimal digits.
+  \code{interval} is always assumed to be a two valued vector of \code{\link[base]{double}}.
+  If there is a percent sign in any of \code{interval} values, it is removed prior to formatting by \code{format.float}.
 }
 \examples{
 format.interval(c(1.756, 1.823))
@@ -24,6 +29,9 @@ format.interval(c(1.756, 1.823))
 
 # Input is character
 format.interval(c("1.756", "1.823"))
+
+# Input is percentage
+format.interval(c("10\%", "15\%"), 1)
 
 }
 \author{

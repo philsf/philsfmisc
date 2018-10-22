@@ -1,8 +1,11 @@
-#' Convert the log-transformed standard deviation from a log-normal variable to the CV.
+#' Convert the log10 standard deviation to the CV (log-normal variable).
 #'
-#' @description
+#' \code{logsd2cv} the log10-transformed \code{sd} from a log-normal variable to the CV.
 #'
-#' @param x A numeric value, vector or list.
+#' This function converts the log10-transformed standard deviation of a log-normal variable to the CV.
+#'
+#' @param x The log10-transformed \code{sd} of data.
+#'   A numeric value, vector or list.
 #'
 #' @return Returns the geometric CV (as percentage)
 #'

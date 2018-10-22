@@ -2,7 +2,7 @@
 % Please edit documentation in R/geosd.R
 \name{geosd}
 \alias{geosd}
-\title{Compute the "geometric standard deviation" of data}
+\title{Compute the "geometric standard deviation" of log-normal data.}
 \usage{
 geosd(x)
 }
@@ -14,8 +14,11 @@ The anti-log of the \code{sd} of log-transformed data `x`.
   Base 10 is assumed as a fixed default in this version.
 }
 \description{
+\code{geosd} computes the anti-log of the standard deviation of log10-transformed data.
+}
+\details{
 The "geometric standard deviation" is not as well-defined as the geometric mean.
- This function returns the analogous concept of \code{sd} in the same manner of the geometric mean.
+Here we apply the analogous concept of the geometric mean to the \code{sd}.
 }
 \examples{
 d <- c(10,100,1000)

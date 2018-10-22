@@ -2,18 +2,22 @@
 % Please edit documentation in R/logvar2cv.R
 \name{logvar2cv}
 \alias{logvar2cv}
-\title{Convert the log-transformed variance from a log-normal variable to the CV.}
+\title{Convert the log10 variance to the CV (log-normal variable).}
 \usage{
 logvar2cv(x)
 }
 \arguments{
-\item{x}{A numeric value, vector or list.}
+\item{x}{The log10-transformed \code{var} of data.
+A numeric value, vector or list.}
 }
 \value{
 Returns the geometric CV (as percentage)
 }
 \description{
-
+\code{logvar2cv} converts the log10-transformed \code{var} of a log-normal variable to the CV.
+}
+\details{
+This function converts the log10-transformed variance of a log-normal variable to the CV.
 }
 \examples{
 d <- c(10,100,1000)

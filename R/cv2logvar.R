@@ -1,6 +1,8 @@
-#' Convert the CV from a log-normal variable to the log-transformed variance.
+#' Convert the CV to the log10 var (log-normal variable).
 #'
-#' @description
+#' \code{cv2logsd} converts the CV from a log-normal variable to the log10-transformed variance.
+#'
+#' This function converts the CV to the log10-transformed variance by inverting the formula used in \code{logvar2cv}.
 #'
 #' @param x A numeric value, vector or list.
 #'

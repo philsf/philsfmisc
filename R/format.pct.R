@@ -1,6 +1,9 @@
-#' Convenience function to format proportions as percentages
+#' Format proportions as percentages for printing
 #'
-#' @description
+#' \code{format.pct} prepares proportions as percentages for results printing, possibly with a percent sign.
+#'
+#' This function multiplies the proportion by 100, formats with the given number of decimal digits.
+#' It also (optionally) includes a percent sign.
 #'
 #' @param p a numeric vector assumed to be a proportion.
 #' @param digits the number of decimal digits to be used in the output.
@@ -20,7 +23,7 @@
 #' @author Felipe Figueiredo
 #' @export format.pct
 
-format.pct <- function(p, digits = 1, pct.symbol = FALSE) {
+format.pct <- function(p, digits = 1, pct.symbol = TRUE) {
   symbol <- "%"
   if (!pct.symbol) symbol <- NULL
   paste0(format.float(p*100, digits), symbol)
