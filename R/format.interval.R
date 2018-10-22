@@ -1,6 +1,8 @@
 #' Format intervals for printing
 #'
-#' @description Format intervals, given a `digits` argument as significant decimal places.
+#' `format.interval` prepares intervals for results printing.
+#'
+#' This function formats a given interval, with the given number of decimal digits.
 #'
 #' @param interval Must be a vector of two values.
 #'   Values can be either numeric or character.
