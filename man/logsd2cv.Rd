@@ -22,7 +22,7 @@ This function converts the log10-transformed standard deviation of a log-normal 
 \examples{
 d <- c(10,100,1000)
 sd(log10(d)) # 1
-logsd2cv(1) # 1413.21\\\%
+logsd2cv(1) # 1413.21\\%
 
 }
 \author{

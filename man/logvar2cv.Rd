@@ -22,7 +22,7 @@ This function converts the log10-transformed variance of a log-normal variable t
 \examples{
 d <- c(10,100,1000)
 var(log10(d)) # 1
-logvar2cv(1) # 1413.21\\\%
+logvar2cv(1) # 1413.21\\%
 
 }
 \author{
