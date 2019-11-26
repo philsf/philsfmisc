@@ -82,8 +82,6 @@ kable(sigs)
 
 Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
 
-<!-- The exact confidence intervals (CIs) of binomial proportions were calculated using package `exactci` (version `r packageVersion("exactci")`). -->
-
 # Resultados
 
 <!-- # Exceções e Desvios do teste -->
