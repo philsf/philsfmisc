@@ -82,9 +82,7 @@ kable(sigs)
 
 # Variáveis do estudo
 
-## Desfecho primário
-
-## Desfechos secundários
+## Desfechos primário e secundários
 
 ## Covariáveis
 
