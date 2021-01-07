@@ -76,18 +76,39 @@ kable(sigs)
 
 ## Objetivos
 
-## Recepção e tratamento dos dados
+## Hipóteses
 
-# Metodologia
+# Limpeza dos dados
 
-Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
+# Variáveis do estudo
 
-# Resultados
+## Desfecho primário
 
-<!-- # Exceções e Desvios do teste -->
+## Desfechos secundários
 
-# Conclusões
+## Covariáveis
 
+# Métodos estatísticos
+
+## Análise descritiva
+
+## Análise inferencial
+
+## Modelagem estatística
+
+## Significância e Intervalos de Confiança
+
+## Tamanho da amostra e Poder
+
+## Softwares utilizados
+
+Esta análise será realizada utilizando-se o software `R` versão `r getRversion()`.
+
+<!-- # Resultados -->
+
+# Exceções e Observações
+
+<!-- # Conclusões -->
 
 # Referências
 
