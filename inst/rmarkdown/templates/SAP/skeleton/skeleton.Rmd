@@ -90,11 +90,13 @@ kable(sigs)
 
 # Métodos estatísticos
 
-## Análise descritiva
+## Análises estatísticas
 
-## Análise inferencial
+### Análise descritiva
 
-## Modelagem estatística
+### Análise inferencial
+
+### Modelagem estatística
 
 ## Significância e Intervalos de Confiança
 
