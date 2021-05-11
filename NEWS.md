@@ -1,3 +1,7 @@
+# philsfmisc 0.6.5
+
+# philsfmisc 0.6.4
+
 # philsfmisc 0.6.3
 
 - `format.pct()`: Revert the default of `pct.symbol()` to `TRUE` (#49)
