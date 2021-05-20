@@ -1,6 +1,7 @@
 # philsfmisc 0.6.5
 
 - New template: SAP #63
+- All document templates removed #70
 
 # philsfmisc 0.6.4
 
