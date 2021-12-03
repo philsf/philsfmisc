@@ -1,7 +1,7 @@
 Package: philsfmisc
 Type: Package
 Title: philsf's miscellaneous R functions
-Version: 0.6.5.9000
+Version: 0.6.5.9001
 Authors@R: person("Felipe", "Figueiredo", email = "philsf79@gmail.com", role = c("aut", "cre"))
 Description: Miscellaneous R functions for convenient data analyses.
 License: file LICENSE
