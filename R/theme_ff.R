@@ -17,5 +17,7 @@
 theme_ff <- function(...) {
   ggplot2::theme_classic(
     ...,
+  ) %+replace% theme(
+    legend.position = "top",
   )
 }
