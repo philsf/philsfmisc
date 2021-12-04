@@ -1,5 +1,7 @@
 # philsfmisc (development version)
 
+- created ggplot2 theme_ff() #73
+
 # philsfmisc 0.6.5
 
 - New template: SAP #63
