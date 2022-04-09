@@ -1,7 +1,7 @@
 Package: philsfmisc
 Type: Package
 Title: philsf's miscellaneous R functions
-Version: 0.6.6.9000
+Version: 0.6.6.9001
 Authors@R: person("Felipe", "Figueiredo", email = "philsf79@gmail.com", role = c("aut", "cre"))
 Description: Miscellaneous R functions for convenient data analyses.
 License: file LICENSE
@@ -12,4 +12,5 @@ Depends: R (>= 3.3.0)
 RoxygenNote: 7.1.2
 Imports: 
     ggplot2,
+    gtsummary,
     stringr
