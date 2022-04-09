@@ -1,5 +1,7 @@
 # philsfmisc (development version)
 
+- created gtsummary theme_ff_gtsummary() #75
+
 # philsfmisc 0.6.6
 
 - created ggplot2 theme_ff() #73
