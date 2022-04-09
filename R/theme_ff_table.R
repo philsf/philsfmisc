@@ -1,3 +1,17 @@
+#' @title FUNCTION_TITLE
+#' @description FUNCTION_DESCRIPTION
+#' @param set_theme PARAM_DESCRIPTION, Default: TRUE
+#' @param font_size PARAM_DESCRIPTION, Default: NULL
+#' @return OUTPUT_DESCRIPTION
+#' @details DETAILS
+#' @examples
+#' \dontrun{
+#' if(interactive()){
+#'  #EXAMPLE1
+#'  }
+#' }
+#' @rdname theme_ff_gtsummary
+#' @export
 theme_ff_gtsummary <- function(set_theme = TRUE, font_size = NULL) {
   lst_theme <- list(
     `pkgwide-fn:pvalue_fun` = function(x) style_pvalue(x,  digits = 3),
