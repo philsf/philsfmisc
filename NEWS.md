@@ -1,6 +1,9 @@
+# philsfmisc (development version)
+
 # philsfmisc 0.6.6
 
-- created ggplot2 theme_ff() #73
+- created ggplot2 theme_ff() #75
+- fix warning in theme_ff() #76
 
 # philsfmisc 0.6.5
 
