@@ -1,15 +1,13 @@
-#' @title FUNCTION_TITLE
-#' @description FUNCTION_DESCRIPTION
-#' @param set_theme PARAM_DESCRIPTION, Default: TRUE
-#' @param font_size PARAM_DESCRIPTION, Default: NULL
+#' @title theme_ff_gtsummary
+#' @description FF gtsummary theme
+#' @param set_theme Set the FF gtsummary theme, Default: TRUE
+#' @param font_size Numeric font size for compact theme. Default is 13 for gt tables, and 8 for all other output types, Default: NULL
 #' @return OUTPUT_DESCRIPTION
 #' @details DETAILS
 #' @examples
-#' \dontrun{
-#' if(interactive()){
-#'  #EXAMPLE1
-#'  }
-#' }
+#' theme_ff_gtsummary()
+#' @seealso
+#'  \code{\link[gtsummary]{set_gtsummary_theme}}
 #' @rdname theme_ff_gtsummary
 #' @export
 theme_ff_gtsummary <- function(set_theme = TRUE, font_size = NULL) {
