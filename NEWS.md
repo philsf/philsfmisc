@@ -1,3 +1,5 @@
+# philsfmisc (development version)
+
 # philsfmisc 0.6.6
 
 - created ggplot2 theme_ff() #73
