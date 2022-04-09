@@ -13,7 +13,7 @@
 #'  \code{\link[ggplot2]{ggtheme}}
 #' @rdname theme_ff
 #' @export
-#' @importFrom ggplot2 theme_classic
+#' @importFrom ggplot2 theme_classic theme `%+replace%`
 theme_ff <- function(...) {
   ggplot2::theme_classic(
     ...,
