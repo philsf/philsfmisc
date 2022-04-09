@@ -10,6 +10,7 @@
 #'  \code{\link[gtsummary]{set_gtsummary_theme}}
 #' @rdname theme_ff_gtsummary
 #' @export
+#' @importFrom gtsummary style_pvalue add_stat_label set_gtsummary_theme
 theme_ff_gtsummary <- function(set_theme = TRUE, font_size = NULL) {
   lst_theme <- list(
     `pkgwide-fn:pvalue_fun` = function(x) style_pvalue(x,  digits = 3),
