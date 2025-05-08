@@ -19,7 +19,7 @@ theme_ff_gtsummary <- function(set_theme = TRUE, font_size = NULL) {
       all_continuous() ~ "{mean} ({sd})",
       all_categorical() ~ "{n} ({p}%)"),
     `add_p.tbl_summary-attr:test.continuous_by2` = "t.test",
-    `add_p.tbl_summary-attr:test.continuous` = "aov",
+    `add_p.tbl_summary-attr:test.continuous` = "oneway.test",
     `add_p.tbl_svysummary-attr:test.continuous` = "svy.t.test",
     `add_p.tbl_svysummary-attr:test.categorical` = "svy.adj.chisq.test",
     `style_number-arg:decimal.mark` = ".",
