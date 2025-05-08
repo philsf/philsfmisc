@@ -1,3 +1,7 @@
+# philsfmisc 0.6.8
+
+- update gtsummary theme for new version #80
+
 # philsfmisc 0.6.7
 
 - created gtsummary theme_ff_gtsummary() #75
