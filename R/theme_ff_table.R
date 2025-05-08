@@ -15,7 +15,9 @@ theme_ff_gtsummary <- function(set_theme = TRUE, font_size = NULL) {
   lst_theme <- list(
     `pkgwide-fn:pvalue_fun` = function(x) style_pvalue(x,  digits = 3),
     `pkgwide-fn:prependpvalue_fun` = function(x) style_pvalue(x, digits = 3, prepend_p = TRUE),
-    `tbl_summary-str:continuous_stat` = "{mean} ({sd})",
+    `tbl_summary-arg:statistic` = list(
+      all_continuous() ~ "{mean} ({sd})",
+      all_categorical() ~ "{n} ({p}%)"),
     `add_p.tbl_summary-attr:test.continuous_by2` = "t.test",
     `add_p.tbl_summary-attr:test.continuous` = "aov",
     `add_p.tbl_svysummary-attr:test.continuous` = "svy.t.test",
@@ -23,7 +25,6 @@ theme_ff_gtsummary <- function(set_theme = TRUE, font_size = NULL) {
     `style_number-arg:decimal.mark` = ".",
     `style_number-arg:big.mark` = ",",
     `tbl_summary-fn:addnl-fn-to-run` = function(x) add_stat_label(x),
-    # `tbl_summary-str:categorical_stat` = "{n} ({p}%)",
     `tbl_svysummary-fn:addnl-fn-to-run` = function(x) add_stat_label(x),
     `pkgwide-str:ci.sep` = " to ",
     `pkgwide-str:theme_name` = "FF gtsummary theme"
